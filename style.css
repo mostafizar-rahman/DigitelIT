@@ -23,16 +23,16 @@ body {
 }
 
 /* ----------------------- Header */
-.nav-item {
+header .nav-item {
     margin: 0 20px;
 }
 
-.carousel-item {
+header .carousel-item {
     position: relative;
 
 }
 
-.carousel-item::after {
+header .carousel-item::after {
     content: '';
     position: absolute;
     top: 0;
@@ -42,18 +42,18 @@ body {
     background-color: rgba(3, 3, 3, 0.5);
 }
 
-.carousel-caption {
+header .carousel-caption {
     z-index: 1;
     max-width: 671px;
 }
 
-.carousel-caption h1 {
+header .carousel-caption h1 {
     line-height: 85px;
     font-size: 65px;
     font-weight: 600;
 }
 
-.carousel-caption p {
+header .carousel-caption p {
     line-height: 30px;
     font-size: 18px;
     font-weight: 400;
@@ -133,32 +133,32 @@ body {
 /* ------------------ Media Query */
 @media(max-width:768px) {
 
-    .carousel-caption {
+    header .carousel-caption {
         max-width: 500px;
     }
 
-    .carousel-caption h1 {
+    header .carousel-caption h1 {
         line-height: 50px;
         font-size: 40px;
     }
 
-    .carousel-caption p {
+    header .carousel-caption p {
         line-height: 25px;
         font-size: 16px;
     }
 }
 
 @media(max-width:576px) {
-    .carousel-item img {
+    header .carousel-item img {
         height: 261px;
     }
 
-    .carousel-caption h1 {
+    header .carousel-caption h1 {
         line-height: 30px;
         font-size: 20px;
     }
 
-    .carousel-caption p {
+    header .carousel-caption p {
         line-height: 18px;
         font-size: 12px;
     }
